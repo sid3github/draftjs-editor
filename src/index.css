@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.public-DraftEditor-content {
+  min-height: 200px;
+}
+
+.public-DraftStyleDefault-block {
+  margin: 10px 0;
+}
+
+.public-DraftStyleDefault-header-one {
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.public-DraftStyleDefault-code-block {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
 }
